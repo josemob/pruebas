@@ -12,7 +12,7 @@ Pasos para clonar e iniciar el proyecto
 
 ## Instalacion
 
-1. Clone el repositorio: `git clone https://github.com/`
+1. Clone el repositorio: `git clone https://github.com/josemob/pruebas.git`
 
 2. Instale la depedencias: `npm install`
 
