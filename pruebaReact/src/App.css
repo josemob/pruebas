@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-image: url(./assets/images/technology.jpg);
+  background-size: cover;
+}
+
+body *{
+  color: #000
+}
+
+.listaCaja {
+  width: 80vw;
+  height: 80vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgb(34, 45, 94);
+  display: flex;
+}
+
+.listaCaja .boxUno,
+.listaCaja .boxDos {
+  width: 50%;
+  height: 100%;
+}
+
+.listaCaja .boxUno {
+  background-color: white;
+  padding: 24px;
+}
+
+.nuevoUsuario{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px
+}
+
+.nuevoUsuario input{
+  display: flex;
+  gap: 14px
+}
+
+.nuevoUsuario .inpUser{
+  background-color: white;
+  width: 340px;
+}
+
+.botoness{
+  display: flex;
+  width: 340px;
+  justify-content: center;
+  margin: 20px 0px;
+  gap: 14px;
+}
